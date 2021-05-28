@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "music-notation",
+        "repositoryURL": "https://github.com/music-notation-swift/music-notation.git",
+        "state": {
+          "branch": null,
+          "revision": "5d115b29ea56de3c5ef1cd9c95c3849b528184c3",
+          "version": "0.2.10"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
