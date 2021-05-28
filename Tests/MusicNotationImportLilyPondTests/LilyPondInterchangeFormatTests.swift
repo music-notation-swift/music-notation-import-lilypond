@@ -13,5 +13,6 @@ import XCTest
 
 class InterchangeFormatTests: XCTestCase {
 	func testLilyPondInterchangeFormat() throws {
+		XCTAssertTrue(true)
 	}
 }
