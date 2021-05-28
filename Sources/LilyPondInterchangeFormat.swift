@@ -9,4 +9,5 @@
 import Foundation
 
 public struct LilyPondInterchangeFormat {
+	public var score: String
 }
