@@ -20,7 +20,7 @@ jobs:
         run: swift test -c debug -Xswiftc -enable-testing --enable-code-coverage
 
       - name: Gather test coverage
-        run: xcrun llvm-cov export -summary-only -ignore-filename-regex MusicNotationImportGuitarProTests .build/debug/music-notation-import-guitarproPackageTests.xctest/Contents/MacOS/music-notation-import-guitarproPackageTests -instr-profile .build/debug/codecov/default.profdata > .build/coverage.json
+        run: xcrun llvm-cov export -summary-only -ignore-filename-regex MusicNotationImportLilyPondTests .build/debug/music-notation-import-lilypondPackageTests.xctest/Contents/MacOS/music-notation-import-lilypondPackageTests -instr-profile .build/debug/codecov/default.profdata > .build/coverage.json
 
       - name: Get Coverage Total Percent  
         run: |
@@ -41,7 +41,7 @@ jobs:
         with:
           auth: ${{ secrets.GIST_SECRET }}
           gistID: b9f858cfba09911bd1755bdc40dd5a35
-          filename: music-notation-import-guitarpro__${{ env.BRANCH }}.json
+          filename: music-notation-import-lilypond__${{ env.BRANCH }}.json
           label: Coverage
           message: ${{ env.COVERAGE }}
           color: green
