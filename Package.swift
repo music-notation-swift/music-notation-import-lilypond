@@ -8,13 +8,17 @@ let package = Package(
 
 	dependencies: [
 		.package(url: "https://github.com/music-notation-swift/music-notation.git", from: "0.2.10"),
+		.package(url: "https://github.com/apple/swift-algorithms.git", from: "0.2.0"),
+		.package(url: "https://github.com/apple/swift-collections.git", from: "0.0.3")
 	],
 
 	targets: [
 		.target(
 			name: "MusicNotationImportLilyPond",
 			dependencies: [
-				.product(name: "MusicNotation", package: "music-notation")
+				.product(name: "MusicNotation", package: "music-notation"),
+				.product(name: "Algorithms", package: "swift-algorithms"),
+				.product(name: "Collections", package: "swift-collections")
 			],
 			path: "Sources"
 		),

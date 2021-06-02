@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct LilyPondInterchangeFormat {
+public struct LilyPondInterchangeFormat: MusicExpression {
 	public var score: String
 
 	public init() {
