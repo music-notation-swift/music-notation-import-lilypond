@@ -9,5 +9,4 @@
 import Algorithms
 import Foundation
 
-public protocol MusicExpression {
-}
+public protocol MusicExpression {}
