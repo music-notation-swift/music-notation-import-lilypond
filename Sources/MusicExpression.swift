@@ -6,8 +6,8 @@
 //	Copyright © 2021 Steven Woolgar. All rights reserved.
 //
 
-import Foundation
 import Algorithms
+import Foundation
 
 public protocol MusicExpression {
 }
