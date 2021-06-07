@@ -8,10 +8,14 @@
 
 import Foundation
 
+public struct Score {
+}
+
 public struct LilyPondInterchangeFormat: MusicExpression {
-	public var score: String
+	public var parts: [Score]?
+	public var version: String?
 
 	public init() {
-		score = ""
+		parts = []
 	}
 }
