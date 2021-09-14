@@ -7,7 +7,7 @@ let package = Package(
 	products: [.library(name: "MusicNotationImportLilyPond", targets: ["MusicNotationImportLilyPond"])],
 
 	dependencies: [
-		.package(url: "https://github.com/music-notation-swift/music-notation.git", from: "0.2.10"),
+		.package(url: "https://github.com/music-notation-swift/music-notation.git", from: "0.2.11"),
 		.package(url: "https://github.com/apple/swift-algorithms.git", from: "0.2.0"),
 		.package(url: "https://github.com/apple/swift-collections.git", from: "0.0.3")
 	],
