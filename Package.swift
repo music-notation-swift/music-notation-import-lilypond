@@ -1,4 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:6.0
+//
+//  Package.swift
+//  music-notation-import-lilypond
+//
+//  Created by Steven Woolgar on 10/16/2020.
+//  Copyright © 2020 Steven Woolgar. All rights reserved.
+//
 import PackageDescription
 
 let package = Package(

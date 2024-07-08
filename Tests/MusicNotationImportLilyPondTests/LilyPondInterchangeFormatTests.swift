@@ -9,10 +9,10 @@
 import Foundation
 
 @testable import MusicNotationImportLilyPond
-import XCTest
+import Testing
 
-class InterchangeFormatTests: XCTestCase {
-	func testLilyPondInterchangeFormat() throws {
-		XCTAssertTrue(true)
+@Suite final class InterchangeFormatTests {
+	@Test func lilyPondInterchangeFormat() async throws {
+		#expect(true)
 	}
 }
